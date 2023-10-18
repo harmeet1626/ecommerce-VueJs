@@ -5,7 +5,15 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
+    beforeEnter: (to, from, next) => {
+      const token = localStorage.getItem('authToken');
+      if (!token) {
+        next('/login');
+      } else {
+        next();
+      }
+    }
   },
   {
     path: '/about',
@@ -15,22 +23,59 @@ const routes = [
   {
     path: '/products',
     name: 'products',
-    component: () => import('../views/productsList.vue')
+    component: () => import('../views/productsList.vue'),
+    beforeEnter: (to, from, next) => {
+      const token = localStorage.getItem('authToken');
+      if (!token) {
+        next('/login');
+      } else {
+        next();
+      }
+    }
   },
   {
     path: '/cart',
     name: 'cart',
-    component: () => import('../views/cart.vue')
+    component: () => import('../views/cart.vue'),
+    beforeEnter: (to, from, next) => {
+      const token = localStorage.getItem('authToken');
+      if (!token) {
+        next('/login');
+      } else {
+        next();
+      }
+    }
   },
   {
     path: '/category',
     name: 'category',
-    component: () => import('../views/category.vue')
+    component: () => import('../views/category.vue'),
+    beforeEnter: (to, from, next) => {
+      const token = localStorage.getItem('authToken');
+      if (!token) {
+        next('/login');
+      } else {
+        next();
+      }
+    }
   },
   {
     path: '/cart',
     name: 'cart',
-    component: () => import('../views/cart.vue')
+    component: () => import('../views/cart.vue'),
+    beforeEnter: (to, from, next) => {
+      const token = localStorage.getItem('authToken');
+      if (!token) {
+        next('/login');
+      } else {
+        next();
+      }
+    }
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/login.vue')
   }
 ]
 

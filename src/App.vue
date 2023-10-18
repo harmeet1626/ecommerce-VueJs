@@ -1,22 +1,26 @@
 <template>
-  <!-- <nav> 
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>|
-    <router-link to="/productsList">Products</router-link>|
-    <router-link to="/cart">Cart</router-link> |
-    <router-link to="/category">Category</router-link>|
-    <router-link to="/productDetails">ProductDetails</router-link>  
-    </nav> -->
-    <navbar />
+    <navbar v-if="showNavbar"/>
   <router-view/>
 </template>
 <script>
 import navbar from '@/components/navbar.vue'
+
 export default{
+  data(){
+    return{
+    }
+  },
 
   components:{
     navbar
-  }
+  },
+  computed: {
+    showNavbar() {
+      const currentRoute = this.$route.name
+      console.log(currentRoute)
+      return currentRoute !== "login";
+    },
+  },
 }
 </script>
 
@@ -40,6 +44,6 @@ nav a {
 }
 
 nav a.router-link-exact-active {
-  color: #42b983;
+  color: #213fa3;
 }
 </style>

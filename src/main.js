@@ -5,4 +5,9 @@ import store from './store'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 
-createApp(App).use(store).use(router).mount('#app')
+import ToastPlugin from 'vue-toast-notification';
+// Import one of the available themes
+//import 'vue-toast-notification/dist/theme-default.css';
+import 'vue-toast-notification/dist/theme-bootstrap.css';
+
+createApp(App).use(ToastPlugin).use(store).use(router).mount('#app')
