@@ -57,7 +57,7 @@ export default {
               position: "top-right",
             });
             localStorage.setItem("authToken", res.token);
-            this.$router.push('/')
+            this.$router.push("/");
           } else {
             this.$toast.error("Please check the creadentials", {
               position: "top-right",
@@ -88,7 +88,7 @@ export default {
 
 html,
 #body {
-    margin-top: 50px;
+  margin-top: 50px;
   display: grid;
   height: 100%;
   width: 100%;

@@ -48,7 +48,7 @@
               </div>
               <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
                 <div class="text-center">
-                  <a class="btn btn-outline-dark mt-auto">View</a>
+                  <button @click="moveToProductDetails(i.id)" class="btn btn-outline-dark mt-auto">View</button>
                 </div>
               </div>
             </div>
@@ -94,6 +94,9 @@ export default {
           console.error("Error fetching data:", error);
         });
     },
+  moveToProductDetails(id){
+    this.$router.push(`/productdetails/${id}`)
+  }
   },
 };
 </script>

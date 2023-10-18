@@ -73,6 +73,19 @@ const routes = [
     }
   },
   {
+    path: '/productDetails/:id',
+    name: 'productDetails',
+    component: () => import('../views/productDetails.vue'),
+    beforeEnter: (to, from, next) => {
+      const token = localStorage.getItem('authToken');
+      if (!token) {
+        next('/login');
+      } else {
+        next();
+      }
+    }
+  },
+  {
     path: '/login',
     name: 'login',
     component: () => import('../views/login.vue')
