@@ -1,17 +1,17 @@
 <template>
-    <navbar v-if="showNavbar"/>
-  <router-view/>
+  <navbar v-if="showNavbar" />
+  <router-view />
 </template>
 <script>
 import navbar from '@/components/navbar.vue'
 
-export default{
-  data(){
-    return{
+export default {
+  data() {
+    return {
     }
   },
 
-  components:{
+  components: {
     navbar
   },
   computed: {

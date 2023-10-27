@@ -1,12 +1,7 @@
 <template>
   <div class="input-group rounded" style="width: 37%; padding-left: 100px">
-    <input
-      type="search"
-      class="form-control rounded"
-      placeholder="Search"
-      aria-label="Search"
-      aria-describedby="search-addon"
-    />
+    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+      aria-describedby="search-addon" />
   </div>
   <div class="text-center container py-1">
     <h2 class="my-2 mt-3 mb-1">
@@ -14,29 +9,16 @@
     </h2>
     <section class="py-5" style="">
       <div class="container px-4 px-lg-5 mt-1">
-        <div
-          class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
-        >
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
           <div class="col mb-5" v-for="i in products" :key="i.id">
-            <div
-              class="card h-100"
-              style="
+            <div class="card h-100" style="
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
                   0 6px 20px 0 rgba(0, 0, 0, 0.19);
-              "
-            >
-              <div
-                class="badge bg-danger text-white position-absolute"
-                style="top: 0.5rem; right: 0.5rem"
-              >
+              ">
+              <div class="badge bg-danger text-white position-absolute" style="top: 0.5rem; right: 0.5rem">
                 Sale
               </div>
-              <img
-                class="card-img-top"
-                :src="i.thumbnail"
-                width="96"
-                height="110"
-              />
+              <img class="card-img-top" :src="i.thumbnail" width="96" height="110" />
               <div class="card-body p-4">
                 <div class="text-center">
                   <h2 class="fw-bolder"></h2>
@@ -94,9 +76,9 @@ export default {
           console.error("Error fetching data:", error);
         });
     },
-  moveToProductDetails(id){
-    this.$router.push(`/productdetails/${id}`)
-  }
+    moveToProductDetails(id) {
+      this.$router.push(`/productdetails/${id}`)
+    }
   },
 };
 </script>

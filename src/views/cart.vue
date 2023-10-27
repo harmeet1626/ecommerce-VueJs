@@ -8,16 +8,12 @@
               <div class="row">
                 <div class="col-lg-7">
                   <h5 class="mb-3">
-                    <a href="#!" class="text-body"
-                      ><i class="fas fa-long-arrow-alt-left me-2"></i>Continue
-                      shopping</a
-                    >
+                    <a href="#!" class="text-body"><i class="fas fa-long-arrow-alt-left me-2"></i>Continue
+                      shopping</a>
                   </h5>
                   <hr />
 
-                  <div
-                    class="d-flex justify-content-between align-items-center mb-4"
-                  >
+                  <div class="d-flex justify-content-between align-items-center mb-4">
                     <div>
                       <p class="mb-1">Shopping cart</p>
                       <p class="mb-0">
@@ -27,9 +23,7 @@
                     <div>
                       <p class="mb-0">
                         <span class="text-muted">Sort by:</span>
-                        <a href="#!" class="text-body"
-                          >price <i class="fas fa-angle-down mt-1"></i
-                        ></a>
+                        <a href="#!" class="text-body">price <i class="fas fa-angle-down mt-1"></i></a>
                       </p>
                     </div>
                   </div>
@@ -58,9 +52,7 @@
                           <div style="width: 80px">
                             <h5 class="mb-0">${{ i.price }}</h5>
                           </div>
-                          <a href="#!" style="color: #cecece"
-                            ><i class="fas fa-trash-alt"></i
-                          ></a>
+                          <a href="#!" style="color: #cecece"><i class="fas fa-trash-alt"></i></a>
                         </div>
                       </div>
                     </div>
@@ -177,16 +169,11 @@
                         <p class="mb-2">$4818.00</p>
                       </div>
 
-                      <button
-                        type="button"
-                        class="btn btn-info btn-block btn-lg"
-                      >
+                      <button type="button" class="btn btn-info btn-block btn-lg">
                         <div class="d-flex justify-content-between">
                           <span>$4818.00</span>
-                          <span
-                            >Checkout
-                            <i class="fas fa-long-arrow-alt-right ms-2"></i
-                          ></span>
+                          <span>Checkout
+                            <i class="fas fa-long-arrow-alt-right ms-2"></i></span>
                         </div>
                       </button>
                     </div>

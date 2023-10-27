@@ -6,7 +6,6 @@
     >
       <div class="container py-3">
         <div class="d-flex align-items-center">
-
           <div class="ms-auto d-none d-lg-block">
             <button
               @click="logout()"
@@ -34,14 +33,18 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav">
-              <p class="nav-item nav-link active">
-                <router-link to="/">Home</router-link>
+              <span class="nav-item nav-link active">
+                <router-link class="no-underline-link" to="/">Home</router-link>
+              </span>
+              <p class="nav-item nav-link">
+                <router-link class="no-underline-link" to="/category"
+                  >Category</router-link
+                >
               </p>
               <p class="nav-item nav-link">
-                <router-link to="/category">Category</router-link>
-              </p>
-              <p class="nav-item nav-link">
-                <router-link to="/products">Products</router-link>
+                <router-link class="no-underline-link" to="/products"
+                  >Products</router-link
+                >
               </p>
 
               <div class="nav-item dropdown">
@@ -119,3 +122,9 @@ export default {
   },
 };
 </script>
+<style scoped>
+.no-underline-link {
+  text-decoration: none;
+  color: #333;
+}
+</style>

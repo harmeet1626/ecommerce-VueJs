@@ -1,18 +1,10 @@
 <template>
   <div class="home">
     <div class="container-fluid px-0 mb-5">
-      <div
-        id="header-carousel"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
+      <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              class="w-100"
-              src="https://media.istockphoto.com/id/1249219777/photo/shopping-online-concept-parcel-or-paper-cartons-with-a-shopping-cart-logo-in-a-trolley-on-a.jpg?s=612x612&w=0&k=20&c=EWKEahyVLY8iAHyirCCDESHRGW37lqUJ7In0SssNSLE="
-              alt="Images"
-            />
+            <img class="w-100" src="./../img/carousel-2.jpg" alt="Images" />
             <div class="carousel-caption">
               <div class="container">
                 <div class="row justify-content-start">
@@ -24,10 +16,7 @@
                     <h1 class="display-1 text-white mb-4 animated slideInRight">
                       Get the best out of market
                     </h1>
-                    <A
-                      href="/"
-                      class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight"
-                    >
+                    <A href="/" class="btn btn-primary rounded-pill py-3 px-5 animated slideInRight">
                       Explore More
                     </A>
                   </div>
@@ -36,7 +25,9 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="w-100" src="./../img/carousel-2.jpg" alt="Image" />
+            <img class="w-100"
+              src="https://images.unsplash.com/photo-1548524238-84b050571016?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=3000&ixid=MnwxfDB8MXxyYW5kb218MHx8Z2FkZ2V0c3x8fHx8fDE2OTc2OTE1NDY&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=4500"
+              alt="Image" />
             <div class="carousel-caption">
               <div class="container">
                 <div class="row justify-content-end">
@@ -47,10 +38,7 @@
                     <h1 class="display-1 text-white mb-5 animated slideInLeft">
                       Ready to Grow Your Business
                     </h1>
-                    <a
-                      href=""
-                      class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft"
-                    >
+                    <a href="" class="btn btn-primary rounded-pill py-3 px-5 animated slideInLeft">
                       Explore More
                     </a>
                   </div>
@@ -59,21 +47,11 @@
             </div>
           </div>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#header-carousel"
-          data-bs-slide="prev"
-        >
+        <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#header-carousel"
-          data-bs-slide="next"
-        >
+        <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
@@ -84,15 +62,8 @@
         <div class="row g-0 feature-row">
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
             <div class="feature-item border h-100 p-5">
-              <div
-                class="btn-square bg-light rounded-circle mb-4"
-                style="width: 64px; height: 64px"
-              >
-                <img
-                  class="img-fluid"
-                  src="https://source.unsplash.com/500x500/?laptop"
-                  alt="Icon"
-                />
+              <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px">
+                <img class="img-fluid" src="https://source.unsplash.com/500x500/?laptop" alt="Icon" />
               </div>
               <h5 class="mb-3">Laptops</h5>
               <p class="mb-0">Get the best laptops from out store!</p>
@@ -100,15 +71,8 @@
           </div>
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
             <div class="feature-item border h-100 p-5">
-              <div
-                class="btn-square bg-light rounded-circle mb-4"
-                style="width: 64px; height: 64px"
-              >
-                <img
-                  class="img-fluid"
-                  src="https://source.unsplash.com/500x500/?Professional"
-                  alt="Icon"
-                />
+              <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px">
+                <img class="img-fluid" src="https://source.unsplash.com/500x500/?Professional" alt="Icon" />
               </div>
               <h5 class="mb-3">Professional Stuff</h5>
               <p class="mb-0">
@@ -118,15 +82,8 @@
           </div>
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
             <div class="feature-item border h-100 p-5">
-              <div
-                class="btn-square bg-light rounded-circle mb-4"
-                style="width: 64px; height: 64px"
-              >
-                <img
-                  class="img-fluid"
-                  src="https://source.unsplash.com/500x500/?price"
-                  alt="Icon"
-                />
+              <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px">
+                <img class="img-fluid" src="https://source.unsplash.com/500x500/?price" alt="Icon" />
               </div>
               <h5 class="mb-3">Fair Prices</h5>
               <p class="mb-0">
@@ -136,15 +93,8 @@
           </div>
           <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
             <div class="feature-item border h-100 p-5">
-              <div
-                class="btn-square bg-light rounded-circle mb-4"
-                style="width: 64px; height: 64px"
-              >
-                <img
-                  class="img-fluid"
-                  src="https://source.unsplash.com/500x500/?20/7"
-                  alt="Icon"
-                />
+              <div class="btn-square bg-light rounded-circle mb-4" style="width: 64px; height: 64px">
+                <img class="img-fluid" src="https://source.unsplash.com/500x500/?20/7" alt="Icon" />
               </div>
               <h5 class="mb-3">24/7 Support</h5>
               <p class="mb-0">
@@ -159,17 +109,9 @@
       <div class="container">
         <div class="row g-0">
           <div class="col-lg-6">
-            <div
-              class="h-100 d-flex align-items-center justify-content-center"
-              style="min-height: 300px"
-            >
-              <button
-                type="button"
-                class="btn-play"
-                data-bs-toggle="modal"
-                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc"
-                data-bs-target="#videoModal"
-              >
+            <div class="h-100 d-flex align-items-center justify-content-center" style="min-height: 300px">
+              <button type="button" class="btn-play" data-bs-toggle="modal"
+                data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-bs-target="#videoModal">
                 <span></span>
               </button>
             </div>
@@ -187,27 +129,19 @@
               </p>
               <div class="row g-5 pt-2 mb-5">
                 <div class="col-sm-6">
-                  <img
-                    class="img-fluid mb-4"
-                    src="./../img/icon/icon-5.png"
-                    alt=""
-                  />
+                  <img class="img-fluid mb-4" src="./../img/icon/icon-5.png" alt="" />
                   <h5 class="mb-3">Managed Services</h5>
                   <span>Clita erat ipsum et lorem et sit sed stet lorem</span>
                 </div>
                 <div class="col-sm-6">
-                  <img
-                    class="img-fluid mb-4"
-                    src="./../img/icon/icon-2.png"
-                    alt=""
-                  />
+                  <img class="img-fluid mb-4" src="./../img/icon/icon-2.png" alt="" />
                   <h5 class="mb-3">Dedicated Experts</h5>
                   <span>Clita erat ipsum et lorem et sit sed stet lorem</span>
                 </div>
               </div>
-              <A class="btn btn-primary rounded-pill py-3 px-5" href="/">
+              <a class="btn btn-primary rounded-pill py-3 px-5" href="/">
                 Explore More
-              </A>
+              </a>
             </div>
           </div>
         </div>

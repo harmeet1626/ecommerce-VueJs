@@ -157,8 +157,8 @@ form .field input:valid {
   transition: all 0.3s ease;
 }
 
-form .field input:focus ~ label,
-form .field input:valid ~ label {
+form .field input:focus~label,
+form .field input:valid~label {
   top: 0%;
   font-size: 16px;
   color: #4158d0;
